@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<title>bot</title>
+</head>
+<body>
+<div class = "appcontainer">
+  <table class = "statusbar" style="width:100%">
+    <tr>
+      <th class = "name"><h2 class="appname">Chatbot </h2></th>
+      <th class = "modalopen"> <button class = "aboutb" id="myBtn">about</button>
+      </th>
+    </tr>
+  </table>
+  <div id="myModal" class="modal"> 
+    
+    <!-- Modal content -->
+    <div class="modal-content"> <span class="close">&times;</span>
+      <p>This beta version chatbot is trained with 10,000 pairs of social media comments as well as college admission data.Feel free to play around with it</p>
+    </div>
+  </div>
+  <div class = "cbox" id = "cbox">
+    <div class="container">
+      <p class="bottext">Bot: Hello. I am bot. Try to chat with me! I will usually reply in around 8 seconds. I have a built in google search api. If you want to search anything type: search up xxx</p>
+      <span class="time-left"></span> </div>
+  </div>
+  <footer id="footer" class = "sendZone">
+    <table class = "sendTable" style="width:100%">
+      <tr>
+        <th class = "iboxth"> <input placeholder="type your message..." class = "ibox" type="text" id="inputbox" name="inputbox">
+        </th>
+        <th class = "buttonth"> <button class = "sendButton" type="button"id = "sendButton">Send</button>
+        </th>
+      </tr>
+    </table>
+  </footer>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
